@@ -43,7 +43,7 @@ README.md
 - 128-bit key
 - `start` signal triggers encryption
 
-### Top-Level (`aes_top`) Responsibilities
+### Top-Level (`top_level`) Responsibilities
 - Loading inputs
 - Running 10 AES rounds
 - Generating round keys
