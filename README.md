@@ -28,7 +28,7 @@ This project implements a simplified AES-128 encryption module in VHDL. It is de
 
 /Waveform_and_Synthesis
   ├── Waveform output.jpeg
-  └── Synthesis output.jpeg
+  └── schematic.sch
 
 Report.pdf
 Presentation.pdf
@@ -62,3 +62,11 @@ run -all
 ```
 
 Expected output: ciphertext matches the NIST AES test vectors.
+
+## Importing .sch Files in Vivado
+To import a schematic file into a Vivado project:
+- Open Vivado and load your project.
+- In the top menu, navigate to:
+File → Import → Schematic
+- Browse to your .sch file and select it.
+- Click OK to complete the import.
