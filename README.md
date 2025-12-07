@@ -16,15 +16,16 @@ This project implements a simplified AES-128 encryption module in VHDL. It is de
 ```
 /Final Code
   ├── /src
-        ├── top_level.vhd
-        ├── addroundkey.vhd
-        ├── shiftrows.vhd
-        ├── mixcolumns.vhd
-        ├── key_expansion.vhd
-        ├── sbox_comb.vhd
-        └── utils.vhd
+  │     ├── top_level.vhd
+  │     ├── addroundkey.vhd
+  │     ├── shiftrows.vhd
+  │     ├── mixcolumns.vhd
+  │     ├── key_expansion.vhd
+  │     ├── sbox_comb.vhd
+  │     └── utils.vhd
   └── /tb
         └── aes_tb.vhd
+
 
 /Waveform_and_Synthesis
   ├── Waveform output.jpeg
